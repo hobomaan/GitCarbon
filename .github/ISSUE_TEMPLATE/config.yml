@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VS Code Marketplace
+    url: https://marketplace.visualstudio.com/items?itemName=CPR.gitcarbon-vscode
+    about: Install GitCarbon from the Visual Studio Code Marketplace
+  - name: VS Code Documentation
+    url: https://code.visualstudio.com/docs
+    about: General VS Code help and documentation
