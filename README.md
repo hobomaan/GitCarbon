@@ -175,8 +175,6 @@ ext install CPR.gitcarbon-vscode
 
 ## Screenshots
 
-> *Screenshots will be added here. Place images in the `assets/` folder.*
-
 | Branch Explorer | Pending Changes | Shelves |
 |---|---|---|
 | ![Branch Explorer](assets/screenshot-graph.png) | ![Pending Changes](assets/screenshot-pending.png) | ![Shelves](assets/screenshot-shelves.png) |
