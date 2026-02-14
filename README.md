@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/gitcarbon-banner.png" alt="GitCarbon – Visual Branch Explorer" width="720" />
+  <img src="assets/gitcarbon-banner.png" alt="GitCarbon – Deterministic Git Workflow" width="720" />
 </p>
 
-<h1 align="center">GitCarbon – Visual Branch Explorer</h1>
+<h1 align="center">GitCarbon</h1>
 
 <p align="center">
-  <strong>A visual Git client built into VS Code — inspired by Plastic SCM.</strong><br />
-  Interactive commit graph &middot; Pending changes sidebar &middot; Shelving &middot; One-click merge & cherry-pick
+  <strong>A deterministic Git workflow — built natively into VS Code.</strong><br />
+  Plastic-style branch explorer &middot; One-press check-ins &middot; Single source of truth
 </p>
 
 <p align="center">
@@ -26,14 +26,73 @@
 
 ---
 
+## The GitCarbon Philosophy
+
+GitCarbon is built on four core principles:
+
+### 1️⃣ One Source of Truth  
+Your repository history should reflect what actually happened.  
+No ambiguity. No hidden structure.
+
+### 2️⃣ No History Rewriting  
+Rebase-heavy workflows introduce non-determinism and structural ambiguity.  
+GitCarbon encourages merge-based clarity and preserved lineage.
+
+### 3️⃣ Deterministic Workflows  
+The same inputs should produce the same visible structure.  
+No silent rewrites. No invisible rebases. No surprises.
+
+### 4️⃣ Simplified Interaction  
+Git should not require four commands to perform one action.  
+GitCarbon reduces commit → push → pull complexity into clear, intentional operations — often in a single press.
+
+Git is powerful — but by default, it is complex and non-deterministic.  
+**GitCarbon makes it visual, simplified, and predictable.**
+
+---
+
 ## Why GitCarbon?
 
 Most Git tools give you either a terminal or a cluttered UI that hides what matters.  
-**GitCarbon** brings the clarity of **Plastic SCM's branch explorer** into VS Code — so you can *see* your repository, not just manage it.
+GitCarbon brings the clarity of Plastic SCM’s branch explorer into VS Code — while simplifying how you interact with Git itself.
 
-- **See the big picture** — an interactive commit graph with colour-coded branch lanes, merge edges, and zoom/pan.
-- **Act in context** — right-click any commit, branch, or tag for the exact operations you need.
-- **Stay in your editor** — no window-switching; everything lives in the VS Code sidebar.
+- **See the big picture** — interactive commit graph with colour-coded branch lanes and merge edges.
+- **Act in context** — perform operations directly from the graph.
+- **Check in with intention** — simplified, single-action workflows.
+- **Stay deterministic** — history remains consistent and trustworthy.
+- **Stay in your editor** — everything lives in the VS Code sidebar.
+
+---
+
+### What Makes GitCarbon Different?
+
+- **True left → right branch layout** — no spaghetti graphs
+- **Merge origin clarity** — always know where a branch came from
+- **One-press check-ins** — reduced multi-step Git flows
+- **Deterministic-first design** — history remains preserved and predictable
+
+---
+
+## Core Workflow Simplification
+
+Traditional Git often looks like this:
+
+git add
+git commit
+git push
+git pull
+resolve conflicts
+repeat
+
+GitCarbon reduces this into intentional, structured actions:
+
+- **Check In** — stage, commit, and sync with clarity
+- **Update** — controlled pull with visible merge context
+- **Merge from the graph** — drag-to-merge with explicit lineage
+
+Fewer steps.  
+More visibility.  
+No hidden state.
 
 ---
 
@@ -45,28 +104,27 @@ Most Git tools give you either a terminal or a cluttered UI that hides what matt
 |---|---|
 | Interactive graph | Pan, zoom, colour-coded branch lanes, merge edges |
 | Context menus | Checkout, merge, cherry-pick, revert, reset, rename, delete, compare |
-| Tag management | Create / delete tags from any commit node |
-| Branch hiding | Declutter the graph — hide and unhide branches |
-| Commit search | Find commits by keyword from the header bar |
+| Drag-to-merge | Trigger merges visually from branch to branch |
+| Merge origin tracking | Clear visual lineage of branch ancestry |
 | MiniMap | Bird's-eye navigation overlay |
-| Drag-to-merge | Drag one branch onto another to trigger a merge |
+| Commit search | Find commits by keyword from the header bar |
 | Diff preview | Inline diff viewer for comparing commits |
 
-### Source Control
+### Simplified Source Control
 
 | Capability | Details |
 |---|---|
-| Pending Changes | Tree view with inline diff, open file, discard single / discard all |
-| Check In view | Sidebar webview for committing with a message |
-| Conflict resolution | Detailed conflict file lists with abort options for merge / cherry-pick / revert |
-| Update (Pull) | One-click pull from the sidebar |
+| One-press Check In | Stage, commit, and sync in a unified action |
+| Pending Changes | Tree view with inline diff and discard options |
+| Update (Pull) | Controlled pull from sidebar |
+| Conflict resolution | Clear conflict file lists with abort options |
 
 ### Shelving (Stash)
 
 | Capability | Details |
 |---|---|
 | Shelve Changes | Stash working tree (including untracked files) |
-| Unshelve / Apply / Drop | Full stash management from the Shelves sidebar |
+| Unshelve / Apply / Drop | Full stash management from sidebar |
 | Diff preview | Browse shelved file diffs before applying |
 
 ### History & Annotations
@@ -80,48 +138,30 @@ Most Git tools give you either a terminal or a cluttered UI that hides what matt
 
 | Capability | Details |
 |---|---|
-| Create PR | Open a GitHub / GitLab / Azure DevOps pull request from the context menu |
-
-### Additional
-
-- **Multi-repo support** — auto-discovers Git repos in workspace subfolders
-- **Light & Dark themes** — follows VS Code theme or manual override
-- **Settings page** — theme, diagnostics, MiniMap, detail pane, node size, hidden branches
-- **Toast notifications** — success/error feedback in the webview
-- **No-repo empty state** — friendly welcome message when no Git repo is found
-
-> **How does GitCarbon compare?** See the full [Feature Comparison (PDF)](assets/GitCarbon%20—%20Feature%20Comparison.pdf) covering GitCarbon, GitLens, Git Graph, GitHub Desktop, and Plastic SCM.
+| Create PR | Open GitHub / GitLab / Azure DevOps pull request from context menu |
 
 ---
 
 ## Installation
 
-**From the Marketplace (recommended)**
-
-1. Open VS Code
-2. Press `Ctrl+Shift+X` to open Extensions
-3. Search for **GitCarbon**
+1. Open VS Code  
+2. Press `Ctrl+Shift+X`  
+3. Search for **GitCarbon**  
 4. Click **Install**
 
-Or install directly:
-
-```
+Or:
+'''
 ext install CPR.gitcarbon-vscode
-```
-
-**Requirements**
-
-- VS Code **1.60** or later
-- Git installed and available on `PATH`
-
+'''
 ---
 
 ## Quick Start
 
-1. Open a folder containing a Git repository.
-2. The **GitCarbon** icon appears in the Activity Bar (sidebar).
-3. Click it to open the **Branch Explorer** — your interactive commit graph.
-4. Use the **Pending Changes** view below to stage, diff, and commit.
+1. Open a Git repository.
+2. Click the **GitCarbon** icon in the Activity Bar.
+3. Explore your repository structure visually.
+4. Use **Check In** to commit and sync with a single action.
+
 
 ---
 
@@ -184,13 +224,28 @@ Have an idea? [Open a feature request →](https://github.com/hobomaan/GitCarbon
 
 ## Contributing
 
-GitCarbon is currently **closed-source**. This repository exists for:
+GitCarbon is currently proprietary while under active development.
+
+This repository exists for:
 
 - **Bug reports** — [report a bug](https://github.com/hobomaan/GitCarbon/issues/new?template=bug_report.md)
 - **Feature requests** — [request a feature](https://github.com/hobomaan/GitCarbon/issues/new?template=feature_request.md)
 - **Discussions** — share ideas, ask questions, and connect with other users
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+
+### Additional
+
+- **Multi-repo support** — auto-discovers Git repos in workspace subfolders
+- **Light & Dark themes** — follows VS Code theme or manual override
+- **Settings page** — theme, diagnostics, MiniMap, detail pane, node size, hidden branches
+- **Toast notifications** — success/error feedback in the webview
+- **No-repo empty state** — friendly welcome message when no Git repo is found
+
+> **How does GitCarbon compare?** See the full [Feature Comparison (PDF)](assets/GitCarbon%20—%20Feature%20Comparison.pdf) covering GitCarbon, GitLens, Git Graph, GitHub Desktop, and Plastic SCM.
 
 ---
 
@@ -203,5 +258,6 @@ The GitCarbon VS Code extension itself is distributed under its own license via 
 ---
 
 <p align="center">
-  Built with care for developers who believe <strong>history should not be rewritten</strong>.
+  History is the source of truth.<br />
+  <strong>GitCarbon protects it.</strong>
 </p>
