@@ -206,9 +206,3 @@ The GitCarbon VS Code extension itself is distributed under its own license via 
   <strong>GitCarbon protects it.</strong><br />
   <em>History should not be rewritten.</em>
 </p>
----
-
-<p align="center">
-  History is the source of truth.<br />
-  <strong>GitCarbon protects it.</strong>
-</p>
