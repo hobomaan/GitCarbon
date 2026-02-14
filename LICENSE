@@ -1,21 +1,37 @@
-MIT License
+GitCarbon — Proprietary License
 
-Copyright (c) 2025 CPR
+Copyright (c) 2025–2026 CPR (Pittroche Ltd). All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software and associated documentation files (the "Software") are the
+exclusive property of CPR (Pittroche Ltd).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. GRANT OF USE
+   You may install and use the compiled/published version of this Software
+   (e.g. via the Visual Studio Code Marketplace) for personal or commercial
+   purposes, subject to the terms of the applicable subscription or purchase
+   agreement.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. RESTRICTIONS
+   You may NOT, without prior written permission from CPR (Pittroche Ltd):
+   a) Copy, modify, merge, or create derivative works of the source code.
+   b) Distribute, sublicense, sell, or otherwise transfer the source code
+      or any portion thereof.
+   c) Reverse-engineer, decompile, or disassemble the compiled Software,
+      except to the extent permitted by applicable law.
+
+3. SOURCE CODE
+   Any source code made publicly visible (e.g. on GitHub) is provided for
+   reference and transparency only. Visibility does NOT constitute a grant
+   of any license rights.
+
+4. DISCLAIMER
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   IN NO EVENT SHALL CPR (PITTROCHE LTD) BE LIABLE FOR ANY CLAIM, DAMAGES
+   OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   OTHER DEALINGS IN THE SOFTWARE.
+
+5. CONTACT
+   For licensing enquiries: info@pittroche.co.uk

@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/github/issues/hobomaan/GitCarbon?label=Issues" alt="Open Issues" />
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" />
+    <img src="https://img.shields.io/badge/License-Proprietary-red.svg" alt="License: Proprietary" />
   </a>
 </p>
 
@@ -195,9 +195,11 @@ See `CONTRIBUTING.md` for guidelines.
 
 ## License
 
-This repository (documentation, issue templates, and assets) is licensed under the **MIT License**.
+GitCarbon is proprietary software. Copyright (c) 2025–2026 CPR (Pittroche Ltd). All rights reserved.
 
-The GitCarbon VS Code extension itself is distributed under its own license via the VS Code Marketplace.
+Source code is provided for reference and transparency only — visibility does **not** constitute a grant of any license rights. See the [LICENSE](LICENSE) file for full terms.
+
+The compiled extension is available via the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=CPR.gitcarbon-vscode).
 
 ---
 
