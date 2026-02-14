@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/gitcarbon-banner.svg" alt="GitCarbon – Deterministic Git Workflow" />
+  <img src="/assets/gitcarbon-banner.svg" alt="GitCarbon – Deterministic Git Workflow" />
 </p>
 
 <h1 align="center">GitCarbon</h1>
