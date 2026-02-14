@@ -28,14 +28,14 @@
 
 ## The GitCarbon Philosophy
 
-GitCarbon is built on four core principles:
+GitCarbon is built around four principles.
 
 ### 1️⃣ One Source of Truth  
 Your repository history should reflect what actually happened.  
 No ambiguity. No hidden structure.
 
 ### 2️⃣ No History Rewriting  
-Rebase-heavy workflows introduce non-determinism and structural ambiguity.  
+Rebase-heavy workflows introduce structural ambiguity and non-determinism.  
 GitCarbon encourages merge-based clarity and preserved lineage.
 
 ### 3️⃣ Deterministic Workflows  
@@ -44,7 +44,7 @@ No silent rewrites. No invisible rebases. No surprises.
 
 ### 4️⃣ Simplified Interaction  
 Git should not require four commands to perform one action.  
-GitCarbon reduces commit → push → pull complexity into clear, intentional operations — often in a single press.
+GitCarbon reduces commit → push → pull complexity into intentional, unified operations.
 
 Git is powerful — but by default, it is complex and non-deterministic.  
 **GitCarbon makes it visual, simplified, and predictable.**
@@ -58,7 +58,7 @@ GitCarbon brings the clarity of Plastic SCM’s branch explorer into VS Code —
 
 - **See the big picture** — interactive commit graph with colour-coded branch lanes and merge edges.
 - **Act in context** — perform operations directly from the graph.
-- **Check in with intention** — simplified, single-action workflows.
+- **Check in with intention** — simplified, unified workflows.
 - **Stay deterministic** — history remains consistent and trustworthy.
 - **Stay in your editor** — everything lives in the VS Code sidebar.
 
@@ -66,10 +66,10 @@ GitCarbon brings the clarity of Plastic SCM’s branch explorer into VS Code —
 
 ### What Makes GitCarbon Different?
 
-- **True left → right branch layout** — no spaghetti graphs
-- **Merge origin clarity** — always know where a branch came from
-- **One-press check-ins** — reduced multi-step Git flows
-- **Deterministic-first design** — history remains preserved and predictable
+- **True left → right branch layout** — no spaghetti graphs  
+- **Merge origin clarity** — always know where a branch came from  
+- **One-press check-ins** — reduced multi-step Git flows  
+- **Deterministic-first design** — preserved, predictable history  
 
 ---
 
@@ -77,18 +77,20 @@ GitCarbon brings the clarity of Plastic SCM’s branch explorer into VS Code —
 
 Traditional Git often looks like this:
 
+```
 git add
 git commit
 git push
 git pull
 resolve conflicts
 repeat
+```
 
-GitCarbon reduces this into intentional, structured actions:
+GitCarbon turns that into structured, visible actions:
 
-- **Check In** — stage, commit, and sync with clarity
-- **Update** — controlled pull with visible merge context
-- **Merge from the graph** — drag-to-merge with explicit lineage
+- **Check In** — stage, commit, and synchronise in a single intentional action  
+- **Update** — controlled pull with visible merge context  
+- **Merge from the graph** — drag-to-merge with explicit lineage  
 
 Fewer steps.  
 More visibility.  
@@ -150,18 +152,24 @@ No hidden state.
 4. Click **Install**
 
 Or:
-'''
+
+```
 ext install CPR.gitcarbon-vscode
-'''
+```
+
+**Requirements**
+
+- VS Code **1.60** or later  
+- Git installed and available on `PATH`
+
 ---
 
 ## Quick Start
 
-1. Open a Git repository.
-2. Click the **GitCarbon** icon in the Activity Bar.
-3. Explore your repository structure visually.
+1. Open a Git repository.  
+2. Click the **GitCarbon** icon in the Activity Bar.  
+3. Explore your repository structure visually.  
 4. Use **Check In** to commit and sync with a single action.
-
 
 ---
 
@@ -175,86 +183,31 @@ ext install CPR.gitcarbon-vscode
 
 ---
 
-## Commands
-
-All commands are available from the Command Palette (`Ctrl+Shift+P`):
-
-| Command | Description |
-|---|---|
-| `GitCarbon: Open Branch Explorer` | Open the commit graph |
-| `GitCarbon: Check In` | Commit staged/pending changes |
-| `GitCarbon: Update` | Pull latest changes |
-| `GitCarbon: Shelve Changes` | Stash working tree |
-| `GitCarbon: Unshelve Changes` | Pop the latest stash |
-| `GitCarbon: Show File History` | View commit log for current file |
-| `GitCarbon: Toggle Blame Annotations` | Toggle inline blame in editor |
-| `GitCarbon: Discard All Changes` | Revert all pending changes |
-
----
-
-## Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| `gitcarbon.themeOverride` | `auto` | Force `light` or `dark` theme for the graph |
-| `gitcarbon.showMiniMap` | `true` | Show the MiniMap overlay |
-| `gitcarbon.showDetailPane` | `true` | Show the commit detail pane |
-| `gitcarbon.nodeSize` | `normal` | Graph node size (`small` / `normal` / `large`) |
-| `gitcarbon.hiddenBranches` | `[]` | Branches to hide from the graph |
-| `gitcarbon.showDiagnostics` | `false` | Show diagnostic overlay |
-
----
-
 ## Roadmap
 
-We're actively developing GitCarbon. Planned features include:
+- [ ] Commit templates  
+- [ ] Timeline view  
+- [ ] Pull request review workflow  
+- [ ] Team policies for deterministic workflows  
+- [ ] Profiles & workspaces  
 
-- [ ] Commit templates
-- [ ] Timeline view (VS Code native timeline API)
-- [ ] Pull request list & review
-- [ ] PR inline comments
-- [ ] Issues integration
-- [ ] Custom script hooks
-- [ ] Profiles & workspaces
-- [ ] Tabbed / multi-panel layouts
-
-Have an idea? [Open a feature request →](https://github.com/hobomaan/GitCarbon/issues/new?template=feature_request.md)
-
----
-
-## Contributing
-
-GitCarbon is currently proprietary while under active development.
-
-This repository exists for:
-
-- **Bug reports** — [report a bug](https://github.com/hobomaan/GitCarbon/issues/new?template=bug_report.md)
-- **Feature requests** — [request a feature](https://github.com/hobomaan/GitCarbon/issues/new?template=feature_request.md)
-- **Discussions** — share ideas, ask questions, and connect with other users
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-
-### Additional
-
-- **Multi-repo support** — auto-discovers Git repos in workspace subfolders
-- **Light & Dark themes** — follows VS Code theme or manual override
-- **Settings page** — theme, diagnostics, MiniMap, detail pane, node size, hidden branches
-- **Toast notifications** — success/error feedback in the webview
-- **No-repo empty state** — friendly welcome message when no Git repo is found
-
-> **How does GitCarbon compare?** See the full [Feature Comparison (PDF)](assets/GitCarbon%20—%20Feature%20Comparison.pdf) covering GitCarbon, GitLens, Git Graph, GitHub Desktop, and Plastic SCM.
+See `CONTRIBUTING.md` for guidelines.
 
 ---
 
 ## License
 
-This repository (documentation, issue templates, and assets) is licensed under the [MIT License](LICENSE).
+This repository (documentation, issue templates, and assets) is licensed under the **MIT License**.
 
-The GitCarbon VS Code extension itself is distributed under its own license via the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=CPR.gitcarbon-vscode).
+The GitCarbon VS Code extension itself is distributed under its own license via the VS Code Marketplace.
 
+---
+
+<p align="center">
+  History is the source of truth.<br />
+  <strong>GitCarbon protects it.</strong><br />
+  <em>History should not be rewritten.</em>
+</p>
 ---
 
 <p align="center">
