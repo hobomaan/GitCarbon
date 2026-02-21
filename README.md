@@ -204,7 +204,7 @@ ext install CPR.gitcarbon-vscode
 
 **Requirements**
 
-- VS Code **1.60** or later  
+- VS Code **1.82** or later  
 - Git installed and available on `PATH`
 
 ---
@@ -223,6 +223,33 @@ ext install CPR.gitcarbon-vscode
 | Branch Explorer | Pending Changes | Shelves |
 |---|---|---|
 | ![Branch Explorer](assets/screenshot-graph.png) | ![Pending Changes](assets/screenshot-pending.png) | ![Shelves](assets/screenshot-shelves.png) |
+
+---
+
+## Free & Pro
+
+GitCarbon is **free during the beta** (until 1 June 2026). After the beta period, new installations include a **30-day free trial** of all Pro features.
+
+| | Free | Pro |
+|---|---|---|
+| Branch graph, pan, zoom, search | ✓ | ✓ |
+| Checkout, pending changes, check-in | ✓ | ✓ |
+| Up to 3 repositories | ✓ | ✓ |
+| Merge, cherry-pick, revert, reset | | ✓ |
+| Create / delete / rename branches | | ✓ |
+| Tags, file history, blame | | ✓ |
+| Unlimited repositories | | ✓ |
+
+### Pricing
+
+| Plan | Price |
+|------|-------|
+| ⭐ Early Adopter Lifetime | **£19** (limited availability) |
+| Lifetime | £69.99 |
+| Annual | £39 / year |
+| Monthly | £4.99 / month |
+
+→ [gitcarbon.lemonsqueezy.com](https://gitcarbon.lemonsqueezy.com/)
 
 ---
 
