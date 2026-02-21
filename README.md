@@ -5,7 +5,7 @@
 <h1 align="center">GitCarbon</h1>
 
 <p align="center">
-  <strong>A deterministic Git workflow — built natively into VS Code.</strong><br />
+  <strong>A simplified, deterministic Git workflow — built natively into VS Code.</strong><br />
   Plastic-style branch explorer &middot; One-press check-ins &middot; Single source of truth
 </p>
 
@@ -28,7 +28,7 @@
 
 ## The GitCarbon Philosophy
 
-GitCarbon is built around four principles.
+GitCarbon is built around five principles.
 
 ### 1️⃣ One Source of Truth  
 Your repository history should reflect what actually happened.  
@@ -46,14 +46,21 @@ No silent rewrites. No invisible rebases. No surprises.
 Git should not require four commands to perform one action.  
 GitCarbon reduces commit → push → pull complexity into intentional, unified operations.
 
-Git is powerful — but by default, it is complex and non-deterministic.  
-**GitCarbon makes it visual, simplified, and predictable.**
+Git is powerful — but it often feels more complicated than it needs to be.
+Many developers don’t need to think about rebasing, local divergence, or multi-step sync flows just to work safely.
+
+**GitCarbon keeps Git’s power while reducing the learning curve:
+visual, simplified, predictable version control that stays out of your way.**
+
+### 5️⃣ Low Learning Curve  
+Version control should help developers ship code, not intimidate them.  
+GitCarbon focuses on intuitive workflows so new developers can be productive quickly — without needing to master every Git concept first.
 
 ---
 
 ## Why GitCarbon?
 
-Most Git tools give you either a terminal or a cluttered UI that hides what matters.  
+Most Git tools either expose raw Git complexity or wrap it in interfaces that still assume deep Git knowledge.
 GitCarbon brings the clarity of Plastic SCM’s branch explorer into VS Code — while simplifying how you interact with Git itself.
 
 - **See the big picture** — interactive commit graph with colour-coded branch lanes and merge edges.
@@ -100,6 +107,9 @@ GitCarbon turns that into structured, visible actions:
 Fewer steps.  
 More visibility.  
 No hidden state.
+
+You shouldn’t need to memorise Git internals to work safely.
+GitCarbon reduces cognitive overhead so developers can focus on code, not tooling.
 
 ---
 
@@ -240,6 +250,6 @@ The compiled extension is available via the [VS Code Marketplace](https://market
 
 <p align="center">
   History is the source of truth.<br />
-  <strong>GitCarbon protects it.</strong><br />
-  <em>History should not be rewritten.</em>
+  <strong>GitCarbon keeps it clear, simple, and trustworthy.</strong><br />
+  <em>Version control shouldn’t be complicated.</em>
 </p>
